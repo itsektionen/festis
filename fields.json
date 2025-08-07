@@ -1,0 +1,422 @@
+{
+    "Namn": {
+        "/T": "Namn",
+        "/FT": "/Tx",
+        "/TU": "Namn:"
+    },
+    "Mobiltelefonnummer": {
+        "/T": "Mobiltelefonnummer",
+        "/FT": "/Tx",
+        "/TU": "Mobiltelefonnummer:"
+    },
+    "Namn_2": {
+        "/T": "Namn_2",
+        "/FT": "/Tx",
+        "/TU": "Namn:"
+    },
+    "Mobiltelefonnummer_2": {
+        "/T": "Mobiltelefonnummer_2",
+        "/FT": "/Tx",
+        "/TU": "Mobiltelefonnummer:"
+    },
+    "Namn_3": {
+        "/T": "Namn_3",
+        "/FT": "/Tx",
+        "/TU": "Namn:"
+    },
+    "Mobiltelefonnummer_3": {
+        "/T": "Mobiltelefonnummer_3",
+        "/FT": "/Tx",
+        "/TU": "Mobiltelefonnummer:"
+    },
+    "Namn_4": {
+        "/T": "Namn_4",
+        "/FT": "/Tx",
+        "/TU": "Namn:"
+    },
+    "Mobiltelefonnummer_4": {
+        "/T": "Mobiltelefonnummer_4",
+        "/FT": "/Tx",
+        "/TU": "Mobiltelefonnummer:"
+    },
+    "Adress": {
+        "/T": "Adress",
+        "/FT": "/Tx",
+        "/TU": "Adress:"
+    },
+    "Namn_5": {
+        "/T": "Namn_5",
+        "/FT": "/Tx",
+        "/TU": "Namn:"
+    },
+    "Mobiltelefonnummer_5": {
+        "/T": "Mobiltelefonnummer_5",
+        "/FT": "/Tx",
+        "/TU": "Mobiltelefonnummer:"
+    },
+    "undefined": {
+        "/T": "undefined",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_2": {
+        "/T": "undefined_2",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "Namn_6": {
+        "/T": "Namn_6",
+        "/FT": "/Tx",
+        "/TU": "Namn:"
+    },
+    "Starttid": {
+        "/T": "Starttid",
+        "/FT": "/Tx",
+        "/TU": "Starttid:"
+    },
+    "Sluttid": {
+        "/T": "Sluttid",
+        "/FT": "/Tx",
+        "/TU": "Sluttid:"
+    },
+    "Antal personer": {
+        "/T": "Antal personer",
+        "/FT": "/Tx",
+        "/TU": "Antal personer:"
+    },
+    "Handläggare KTH": {
+        "/T": "Handläggare KTH",
+        "/FT": "/Tx",
+        "/TU": "Handläggare KTH:"
+    },
+    "Noteringar": {
+        "/T": "Noteringar",
+        "/FT": "/Tx"
+    },
+    "Instruktioner": {
+        "/T": "Instruktioner",
+        "/FT": "/Btn",
+        "/TU": "Instruktioner",
+        "/Ff": 65536,
+        "/_States_": [
+            "/BBox",
+            "/Filter",
+            "/FormType",
+            "/Matrix",
+            "/Resources",
+            "/Subtype",
+            "/Type",
+            "/Off"
+        ]
+    },
+    "Skriv ut": {
+        "/T": "Skriv ut",
+        "/FT": "/Btn",
+        "/TU": "Skriv ut formuläret",
+        "/Ff": 65536,
+        "/_States_": [
+            "/BBox",
+            "/Filter",
+            "/FormType",
+            "/Matrix",
+            "/Resources",
+            "/Subtype",
+            "/Type",
+            "/Off"
+        ]
+    },
+    "Skicka": {
+        "/T": "Skicka",
+        "/FT": "/Btn",
+        "/Ff": 65536,
+        "/_States_": [
+            "/BBox",
+            "/Filter",
+            "/FormType",
+            "/Matrix",
+            "/Resources",
+            "/Subtype",
+            "/Type",
+            "/Off"
+        ]
+    },
+    "Rensa": {
+        "/T": "Rensa",
+        "/FT": "/Btn",
+        "/TU": "Rensa formuläret och börja om",
+        "/Ff": 65536,
+        "/_States_": [
+            "/BBox",
+            "/Filter",
+            "/FormType",
+            "/Matrix",
+            "/Resources",
+            "/Subtype",
+            "/Type",
+            "/Off"
+        ]
+    },
+    "Typ av sammankomst": {
+        "/T": "Typ av sammankomst",
+        "/FT": "/Ch",
+        "/TU": "Typ av sammankomst",
+        "/Ff": 917504,
+        "/V": " ",
+        "/DV": " ",
+        "/Opt": [
+            " ",
+            "Fest",
+            "Filmkväll",
+            "Gasque",
+            "Grillfest",
+            "LAN",
+            "Middag",
+            "Möte",
+            "Pub",
+            "Sillis",
+            "Sittning",
+            "Spelkväll",
+            "Tentapub"
+        ],
+        "/_States_": [
+            " ",
+            "Fest",
+            "Filmkväll",
+            "Gasque",
+            "Grillfest",
+            "LAN",
+            "Middag",
+            "Möte",
+            "Pub",
+            "Sillis",
+            "Sittning",
+            "Spelkväll",
+            "Tentapub"
+        ]
+    },
+    "Mobiltelefonnummer_6": {
+        "/T": "Mobiltelefonnummer_6",
+        "/FT": "/Tx",
+        "/TU": "Mobiltelefonnummer:"
+    },
+    "Sektion": {
+        "/T": "Sektion",
+        "/FT": "/Ch",
+        "/TU": "Sektion",
+        "/Ff": 655360,
+        "/V": " ",
+        "/DV": "P - Produktionssektionen ",
+        "/Opt": [
+            " ",
+            "A-Arkitektursektionen",
+            "B- Kongliga Bergssektionen",
+            "CL- Sektionen för Civilingenjör och Lärare",
+            "D- Kongliga Datasektionen",
+            "Dr- Doktorandsektionen",
+            "E- Konglig Elektrosektionen",
+            "F- Fysiksektionen",
+            "I- Sektionen för Industriell ekonomi",
+            "IN- Sektionen för Informations- och Nanoteknik",
+            "IsB- Ingenjörssektionen Bygg",
+            "IsF- Ingenjörsektionen Flemingsberg",
+            "K- kongliga Kemisektionen",
+            "M- Kungliga Maskinsektionen",
+            "Media- Sektionen för Mediateknik",
+            "MiT- Sektionen för Medicinsk Teknik",
+            "OPEN- Öppen ingång",
+            "P - Produktionssektionen ",
+            "S- Konglig Samhällsbyggnadssektion",
+            "T- Flygsektionen",
+            "W- Energi och Miljö "
+        ],
+        "/_States_": [
+            " ",
+            "A-Arkitektursektionen",
+            "B- Kongliga Bergssektionen",
+            "CL- Sektionen för Civilingenjör och Lärare",
+            "D- Kongliga Datasektionen",
+            "Dr- Doktorandsektionen",
+            "E- Konglig Elektrosektionen",
+            "F- Fysiksektionen",
+            "I- Sektionen för Industriell ekonomi",
+            "IN- Sektionen för Informations- och Nanoteknik",
+            "IsB- Ingenjörssektionen Bygg",
+            "IsF- Ingenjörsektionen Flemingsberg",
+            "K- kongliga Kemisektionen",
+            "M- Kungliga Maskinsektionen",
+            "Media- Sektionen för Mediateknik",
+            "MiT- Sektionen för Medicinsk Teknik",
+            "OPEN- Öppen ingång",
+            "P - Produktionssektionen ",
+            "S- Konglig Samhällsbyggnadssektion",
+            "T- Flygsektionen",
+            "W- Energi och Miljö "
+        ]
+    },
+    "Lokal": {
+        "/T": "Lokal",
+        "/FT": "/Ch",
+        "/TU": "Lokal",
+        "/Ff": 917504,
+        "/V": " ",
+        "/DV": "Kistan 2.0",
+        "/Opt": [
+            " ",
+            "Amöban",
+            "Byggeriet",
+            "Dragskåpet",
+            "Gråttan",
+            "Hardox",
+            "Istället",
+            "Kistan 2.0",
+            "Konsulatet",
+            "Meta",
+            "Oasen",
+            "Rudan",
+            "Smörjkammaren",
+            "SneQuan",
+            "T-Centralen",
+            "Tovlan"
+        ],
+        "/_States_": [
+            " ",
+            "Amöban",
+            "Byggeriet",
+            "Dragskåpet",
+            "Gråttan",
+            "Hardox",
+            "Istället",
+            "Kistan 2.0",
+            "Konsulatet",
+            "Meta",
+            "Oasen",
+            "Rudan",
+            "Smörjkammaren",
+            "SneQuan",
+            "T-Centralen",
+            "Tovlan"
+        ]
+    },
+    "Datum sammankomst": {
+        "/T": "Datum sammankomst",
+        "/FT": "/Tx",
+        "/AA": {
+            "/F": IndirectObject(381,
+            0,
+            4387969008),
+            "/K": IndirectObject(382,
+            0,
+            4387969008)
+        }
+    },
+    "Inkom": {
+        "/T": "Inkom",
+        "/FT": "/Tx",
+        "/AA": {
+            "/F": IndirectObject(383,
+            0,
+            4387969008),
+            "/K": IndirectObject(384,
+            0,
+            4387969008)
+        }
+    },
+    "undefined_6": {
+        "/T": "undefined_6",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_7": {
+        "/T": "undefined_7",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_10": {
+        "/T": "undefined_10",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_8": {
+        "/T": "undefined_8",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_9": {
+        "/T": "undefined_9",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_11": {
+        "/T": "undefined_11",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_12": {
+        "/T": "undefined_12",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_13": {
+        "/T": "undefined_13",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_16": {
+        "/T": "undefined_16",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    },
+    "undefined_17": {
+        "/T": "undefined_17",
+        "/FT": "/Btn",
+        "/TU": "undefined",
+        "/_States_": [
+            "/On",
+            "/Off"
+        ]
+    }
+}
