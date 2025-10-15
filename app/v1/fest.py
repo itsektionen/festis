@@ -1,7 +1,7 @@
 import io
 from pypdf import PdfReader, PdfWriter
 
-from app.models import Festanmalan
+from .models import Festanmalan
 
 # TODO: Implement chapters as enums
 #
