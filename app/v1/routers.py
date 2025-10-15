@@ -10,13 +10,13 @@ v1_router = APIRouter(prefix="/v1")
 
 
 @v1_router.post(
-    "/create",
-    name="Create festanmälan",
-    description="This endpoint creates a festanmälan .pdf with the data provided",
+    "/generate",
+    name="Generate festanmälan",
+    description="This endpoint generates a festanmälan .pdf with the data provided",
     response_description="The generated festanmälan .pdf",
     response_class=StreamingResponse,
 )
-async def create_festanmälan(anmalan: Festanmalan):
+async def generate_festanmalan(anmalan: Festanmalan):
     pdf = generate_pdf(anmalan)
     return StreamingResponse(
         pdf,
