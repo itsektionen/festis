@@ -1,4 +1,6 @@
-from pydantic import BaseModel, Field
+from typing import Optional
+
+from pydantic import BaseModel, Field, model_validator
 
 
 class Person(BaseModel):
@@ -23,7 +25,9 @@ class Festanmalan(BaseModel):
         description="The name of the chapter",
     )
     fa: Person = Field(..., description="The full name of the festansvarig")
-    sa: Person = Field(..., description="The full name of the serveringsansvarig")
+    sa: Optional[Person] = Field(
+        default=None, description="The full name of the serveringsansvarig"
+    )
     ba: Person = Field(..., description="The full name of the brandansvarig")
     ul: Person = Field(..., description="The full name of the utrymningsledare")
     location: str = Field(
@@ -62,3 +66,9 @@ class Festanmalan(BaseModel):
     extended_area: bool = Field(
         default=False, description="Whether the serving area is extended"
     )
+
+    @model_validator(mode="after")
+    def check_sa(self):
+        if self.alcohol and self.sa is None:
+            raise ValueError("sa is required when alcohol is served")
+        return self

@@ -103,8 +103,8 @@ def generate_pdf(anmalan: Festanmalan):
             FA_NAME_FIELD: anmalan.fa.name,
             FA_PHONE_FIELD: anmalan.fa.phone,
             # Serveringsansvarig
-            SA_NAME_FIELD: anmalan.sa.name,
-            SA_PHONE_FIELD: anmalan.sa.phone,
+            SA_NAME_FIELD: anmalan.sa.name if anmalan.sa else "",
+            SA_PHONE_FIELD: anmalan.sa.phone if anmalan.sa else "",
             # Brandansvarig
             BA_NAME_FIELD: anmalan.ba.name,
             BA_PHONE_FIELD: anmalan.ba.phone,
